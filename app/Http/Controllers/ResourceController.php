@@ -1,9 +1,14 @@
 <?php
+<<<<<<< HEAD
 
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+=======
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+>>>>>>> resource
 class ResourceController extends Controller
 {
     /**
@@ -15,7 +20,10 @@ class ResourceController extends Controller
     {
         echo "Index";
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Show the form for creating a new resource.
      *
@@ -25,7 +33,10 @@ class ResourceController extends Controller
     {
         echo "CREATE";
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Store a newly created resource in storage.
      *
@@ -37,7 +48,10 @@ class ResourceController extends Controller
         //
         echo "STORE";
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Display the specified resource.
      *
@@ -49,7 +63,10 @@ class ResourceController extends Controller
         //
         echo "id:".$id;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Show the form for editing the specified resource.
      *
@@ -60,7 +77,10 @@ class ResourceController extends Controller
     {
         echo "user_id:".$id;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Update the specified resource in storage.
      *
@@ -74,7 +94,10 @@ class ResourceController extends Controller
         echo "<br/>";
         echo "Update";
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> resource
     /**
      * Remove the specified resource from storage.
      *
@@ -85,4 +108,8 @@ class ResourceController extends Controller
     {
         echo "goods_id:".$id;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> resource
