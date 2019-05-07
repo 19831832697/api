@@ -16,3 +16,12 @@ Route::get('/', function () {
 });
 
 Route::resource('goods',ResourceController::class);
+
+
+Route::any('curl','user\UserController@curl');
+//路由中间件
+Route::any('show','user\UserController@show')->middleware('token');
+Route::any('register','user\UserController@register');
+Route::any('login','user\UserController@login');
+Route::any('token','user\UserController@token');
+Route::any('my','user\UserController@my')->middleware(['token','login']);
