@@ -96,6 +96,7 @@ class UserController extends Controller
         $where=[
             'user_name'=>$user_name,
         ];
+
         $arrInfo=DB::table('user_test')->where($where)->first();
         $user_id=$arrInfo->user_id;
         $uname=$arrInfo->user_name;

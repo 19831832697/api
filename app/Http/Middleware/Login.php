@@ -46,7 +46,6 @@ class Login
             ];
             die(json_encode($res,JSON_UNESCAPED_UNICODE));
         }
-
         return $next($request);
     }
 }

@@ -23,5 +23,7 @@ Route::any('curl','user\UserController@curl');
 Route::any('show','user\UserController@show')->middleware('token');
 Route::any('register','user\UserController@register');
 Route::any('login','user\UserController@login');
+Route::any('loginindex','user\LoginController@login');//登录视图
+Route::any('loginDo','user\LoginController@loginDo');//登录执行
 Route::any('token','user\UserController@token');
 Route::any('my','user\UserController@my')->middleware(['token','login']);
